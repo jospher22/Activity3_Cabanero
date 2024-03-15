@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Brew & Bloom Café</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="business_cabanero.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Brew & Bloom Café</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="intro.jpg" alt="intro" width="1600" height="800">
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-khaki w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+     <img src="tablesetting.jpg" class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About</h1><br>
+      <h5 class="w3-center">Tradition since 1889</h5>
+      <p class="w3-large">"Hey there, welcome to Brew & Bloom Café! Come on in and take a load off. You'll feel right at home here among the cozy vibes and the smell of freshly brewed coffee. Take your time, explore our menu, and let's chat about what tickles your taste buds today. We're all about creating a chill space where you can kick back, relax, and enjoy the good stuff. So glad you could join us!"</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-khaki w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>Brew & Bloom Latte</h4>
+      <p class="w3-text-grey">Our classic latte infused with a secret blend of aromatic spices, guaranteed to warm your soul with every sip.</p><br>
+    
+      <h4>Fluffy Blueberry Pancakes</h4>
+      <p class="w3-text-grey">Indulge in a stack of fluffy pancakes bursting with juicy blueberries and drizzled with maple syrup, a breakfast favorite that's sure to brighten your day.</p><br>
+    
+      <h4>Savory Avocado Toast</h4>
+      <p class="w3-text-grey">Creamy avocado smashed onto crispy toast and topped with tangy cherry tomatoes and a sprinkle of savory spices, a deliciously wholesome choice to start your morning right.</p><br>
+    
+      <h4>Decadent Chocolate Chip Cookie</h4>
+      <p class="w3-text-grey">Dive into our freshly baked chocolate chip cookie, perfectly crispy on the outside and irresistibly gooey on the inside, a sweet treat that's impossible to resist.</p><br>
+    
+      <h4>Zesty Mediterranean Salad</h4>
+      <p class="w3-text-grey">A vibrant mix of crisp greens, ripe cherry tomatoes, tangy feta cheese, and briny olives, tossed in a zesty lemon vinaigrette, a refreshing option for a light and flavorful lunch.</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="menu.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-khaki w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+    <p class="w3-text-blue-grey w3-large"><b>Catering Service, Cagayan de Oro City, PH</b></p>
+    <p>You can also contact us by phone 09816189115 or email brewandbloomcafe@gmail.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
